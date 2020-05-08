@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.container:after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+header{
+    background-color: #5C2F7F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+header a:hover{
+    color: #dac261;
+    
+}
+#logo{
+    cursor: pointer;
+    margin-left: 15px;
+    
+}
+li, a{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    color: wheat;
+    margin: 0 20px 0;
+}
+.carusel{
+	width: 100%;	
+}
+
+
+div.second_nav{
+	text-align: center;
+    margin: 25px 0 25px;
+}
+div.second_nav a{
+	margin-right:20px;
+	font-size: 15px;
+	color:#9f9f9f;
+	text-decoration: none;
+}
+div.second_nav a:hover{
+	color:#dac261;
+}
+.separator{
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right,#fff,#dac261,#fff);
+}
+.gallery {
+    float: left;
+    width: 25%;
+}
+.gallery img {
+	margin-top: 20px;
+    position: relative;
+    width: 100%; 
+}
+.desc {
+    text-align: center;
+    color: #5c2f7f;
+    box-sizing: border-box;
+    padding-top: 15px;
+    position: relative;
+    font-size: 1.35vw;
+}
+.btn_gallery{
+    position: relative;
+    margin-top: 15px;
+	margin-bottom: 25px;
+    border: 1.5px solid  #dac261;
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 1.1vw;
+    color:#dac261;
+	left: 30%;
+    text-decoration: none;
+    text-align: center;
+	align-items: center;
+	background-color: white;
+}
+.images:hover{
+    opacity: 0.5;
+}
+.btn_gallery:hover{
+    color: white;
+    background-color: #dac261;
+}
+.pre_footer{
+    display: flex;
+    justify-content:flex-end;
+}
+#img_content{
+    margin: 45px 0 45px;
+}
+.content_text_part{
+    margin: 45px 55px 0 45px;
+    font-size: 1.25vw;
+}
+
+footer ul{
+    display: inline-block;    
+}
+footer li{
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content:space-around
+}
+.foot{
+    margin: 25px 0 25px;
+    color: purple;
+}
+
+
+
+
